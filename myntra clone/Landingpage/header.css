@@ -4,12 +4,13 @@
     font-size: 62.5%;
     --primaryFont : 'DM Sans', sans-serif;
     --charSpace : 6px; 
-    --primaryColor : #3e4152;
+    --primaryColor : #ebc9e1;
     --secondaryColor : #fafbfc;
 }
 body{
     font-family: var(--primaryFont);
     scroll-behavior: smooth;
+    background-color: rgb(218, 201, 201);
 }
 .slider{
     width: 100%;
