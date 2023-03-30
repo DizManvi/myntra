@@ -8,8 +8,9 @@
     --secondaryColor : #fafbfc;
 }
 body{
-    font-family: var(--primaryFont);
+    font-family: var(--primaryFont); 
     scroll-behavior: smooth;
+    background-color: rgb(218, 201, 201);
 }
 
 body img{
@@ -34,7 +35,7 @@ header{
     top: 0;
     left: 0;
     right: 0;
-    background-color: #ffff;
+    background-color: rgb(202, 155, 155);
     opacity: 1;
     z-index: 1000;
 }
@@ -46,7 +47,7 @@ header >* {
 }
 #logo > img{
     width: 80%;
-    margin-top: 2rem;
+    margin-top: 0.2rem;
     cursor: pointer;
 }
 #nav_bar{
