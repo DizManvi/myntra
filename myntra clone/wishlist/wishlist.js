@@ -28,11 +28,6 @@ wisharr.map(function(ele,ind){
     price.innerText = ele.price
     price.style.color ="black"
 
-  var strikedprice = document.createElement("span");
-  strikedprice.innerText = ele.strikedoffprice;
-  strikedprice.style.textDecoration = "line-through";
-  strikedprice.style.color ="gray";
-
 
   var offer = document.createElement("span");
   offer.innerText =ele.offer;
@@ -40,7 +35,7 @@ wisharr.map(function(ele,ind){
 
   var pricepara =document.createElement("p");
   pricepara.className="pricepara"
-  pricepara.append(price,strikedprice,offer)
+  pricepara.append(price,offer)
   box.append(pricepara)
 
   var buttonrm =document.createElement("button")
@@ -52,7 +47,7 @@ wisharr.map(function(ele,ind){
 
 
   var buttonbag =document.createElement("button")
-  buttonbag.innerText ="MOVE TO BAG";
+  buttonbag.innerText ="Chat with Owner";
   
   buttonbag.addEventListener("click", function(){
    sendtocart(ele,ind)
@@ -96,3 +91,8 @@ function sendtocart(ele,ind){
 document.getElementById('landingPage').addEventListener('click', function(){
 window.location.href = "../Landingpage/index.html"
 })
+
+
+
+
+	
