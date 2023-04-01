@@ -10,7 +10,7 @@
 body{
     font-family: var(--primaryFont); 
     scroll-behavior: smooth;
-    background-color: rgb(218, 201, 201);
+    background-color: rgb(237, 211, 211);
 }
 
 body img{
@@ -77,19 +77,19 @@ header >* {
     border-bottom: 5px solid #f58fa0;
 }
 #nav_bar li:nth-child(1):hover a{
-    border-bottom: 5px solid #ff4500;
+    border-bottom: 5px solid #ffffff;
 }
 #nav_bar li:nth-child(2):hover a{
-    border-bottom: 5px solid #ff69b4;
+    border-bottom: 5px solid #ffffff;
 }
 #nav_bar li:nth-child(3):hover a{
-    border-bottom: 5px solid #ffa500;
+    border-bottom: 5px solid #ffffff;
 }
 #nav_bar li:nth-child(4):hover a{
-    border-bottom: 5px solid #f2c210;;
+    border-bottom: 5px solid #ffffff;
 }
 #nav_bar li:nth-child(5):hover a{
-    border-bottom: 5px solid #0db7af;
+    border-bottom: 5px solid #ffffff;
 }
 
 #nav_bar li{
