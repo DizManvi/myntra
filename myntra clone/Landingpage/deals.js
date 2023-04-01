@@ -2,7 +2,7 @@
 // <----- OBJECT DATAS -----> //
 var dealsArr = [{
     // img: "https://assets.myntassets.com/f_webp,w_140,c_limit,fl_progressive,dpr_2.0/assets/images/2022/3/29/2eaab0d6-e843-4ad2-b1da-2159d1d30e9e1648537708005-WONDERFUL-DEALS-AHEAD-.jpg"
-    image_url : "/Landingpage/imglp/2.png"
+    image_url : "Landingpage/imglp/2.png"
 },
 {
     img: "https://assets.myntassets.com/f_webp,w_140,c_limit,fl_progressive,dpr_2.0/assets/images/2022/3/19/aa52212a-f867-4315-9b8b-355261ba0e651647679856552-Shirts---Trousers.jpg"
